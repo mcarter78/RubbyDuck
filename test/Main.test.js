@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Main from '../src/Components/Main';
-import EmailInput from '../src/Components/EmailInput';
+import Subscribe from '../src/Components/Subscribe';
 
 const wrapper = shallow(<Main />);
 
@@ -11,9 +11,9 @@ describe('<Main />', () => {
     shallow(<Main />);
   });
 
-  it('should render a <EmailInput /> component', () => {
-    const emailInput = [<EmailInput />];
-    expect(wrapper.containsAllMatchingElements(emailInput)).toEqual(true);
+  it('should render a <Subscribe /> component', () => {
+    const subscribe = [<Subscribe />];
+    expect(wrapper.containsAllMatchingElements(subscribe)).toEqual(true);
   });
 
 });
