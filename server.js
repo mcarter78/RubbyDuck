@@ -31,8 +31,8 @@ app.post('/subscribe', function(req, res) {
     from: 'RubbyDuck Customer Support <matt@mattcarterdev.com>',
     to: req.body.email,
     subject: 'Thanks from RubbyDuck!',
-    html: 'Email Address: <br/>' + req.body.email + '<br/><br/>' +
-          '<br/><br/>' + 'The content of this email is provided by and is the responsibility of the person posting the email communication. You acknowledge that any reliance on material in email communications is at your own risk.'+ '</b>'
+    html: '<h1>Thanks for Subscribing!</h1><img src="https://vignette3.wikia.nocookie.net/muppet/images/0/09/Rubberduckieplayskool.jpg/revision/latest?cb=20091129042307"/><br/><br/>'
+          'Email Address: <br/>' + req.body.email + '<br/><br/>'      
   };
   transporter.sendMail(mailOptions, function(error, info) {
     if(error) {
