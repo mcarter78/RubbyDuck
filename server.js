@@ -15,7 +15,7 @@ var nodemailer = require('nodemailer');
 var wellknown = require('nodemailer-wellknown');
 var mailConfig = {
   transport: 'SMTP',
-  host: 'smtp.gmail.com',
+  host: 'smtp.sendgrid.net',
   port: 587,
   auth: {
     user: process.env.MAILER_USER,
