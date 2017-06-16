@@ -125,7 +125,11 @@ html, body {
   #main .main-title {
     font-size: 1.8em;
     padding: 0;
-    margin-top: 60px; } }
+    margin-top: 60px; }
+  #main input {
+    font-size: 16px; }
+  #main #submit-button {
+    font-size: 12px; } }
 
 @media (max-width: 320px) {
   #header .logo {
