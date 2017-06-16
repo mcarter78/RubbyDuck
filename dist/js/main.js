@@ -10192,7 +10192,7 @@ var Main = function (_Component) {
         _react2.default.createElement(
           'h1',
           { className: 'main-title col-md-12' },
-          'Coming Soon! Custom rubber duckies for all of your playful tub needs!'
+          'Coming Soon! Custom rubber duckies for all your playful tub needs!'
         ),
         _react2.default.createElement(_Subscribe2.default, null)
       );
