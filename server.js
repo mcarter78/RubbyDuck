@@ -28,6 +28,7 @@ var transporter = nodemailer.createTransport(mailConfig);
 app.post('/subscribe', function(req, res) {
   console.log(req.body);
   var mailOptions = {
+    from: 'RubbyDuck Customer Support',
     replyTo: req.body.email,
     to: req.body.email,
     subject: 'Thanks from RubbyDuck!',
