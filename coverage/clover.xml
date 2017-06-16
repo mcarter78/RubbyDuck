@@ -1,40 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1497571499647" clover="3.2.0">
-  <project timestamp="1497571499648" name="All files">
-    <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="8" elements="23" coveredelements="17" complexity="0" loc="12" ncloc="12" packages="1" files="7" classes="7">
-      <file name="App.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/App.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="2" type="stmt"/>
-      </file>
-      <file name="EmailInput.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/EmailInput.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
-      </file>
-      <file name="Footer.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Footer.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
-      </file>
-      <file name="Header.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Header.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
-      </file>
-      <file name="Main.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Main.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="2" type="stmt"/>
-      </file>
-      <file name="SubmitButton.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/SubmitButton.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
-      </file>
-      <file name="Subscribe.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Subscribe.js">
-        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-      </file>
+<coverage generated="1497646783452" clover="3.2.0">
+  <project timestamp="1497646783453" name="All files">
+    <metrics statements="37" coveredstatements="11" conditionals="14" coveredconditionals="1" methods="18" coveredmethods="9" elements="69" coveredelements="21" complexity="0" loc="37" ncloc="37" packages="2" files="9" classes="9">
+      <package name="Components">
+        <metrics statements="32" coveredstatements="11" conditionals="12" coveredconditionals="1" methods="16" coveredmethods="9"/>
+        <file name="App.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/App.js">
+          <metrics statements="12" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="25" count="2" type="stmt"/>
+        </file>
+        <file name="EmailInput.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/EmailInput.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+        </file>
+        <file name="Footer.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Footer.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="2" type="stmt"/>
+        </file>
+        <file name="Header.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Header.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="2" type="stmt"/>
+        </file>
+        <file name="Logo.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Logo.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+        </file>
+        <file name="Main.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Main.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="2" type="stmt"/>
+        </file>
+        <file name="SubmitButton.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/SubmitButton.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+        </file>
+        <file name="Subscribe.js" path="/Users/matthewcarter/dev/rubbyduck/src/Components/Subscribe.js">
+          <metrics statements="14" coveredstatements="4" conditionals="4" coveredconditionals="1" methods="8" coveredmethods="2"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="44" count="2" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="utils">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="subscribe.js" path="/Users/matthewcarter/dev/rubbyduck/src/utils/subscribe.js">
+          <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+        </file>
+      </package>
     </metrics>
   </project>
 </coverage>
