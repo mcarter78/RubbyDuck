@@ -48,7 +48,7 @@ class Subscribe extends Component {
             val="Thanks for subscribing!"/>
         ) : (
           <div>
-            <h4>Subscribe now and we'll keep you updated on details of our launch, our products, and all the ducky details!</h4>
+            <h4>Subscribe now and we'll keep you updated on our launch, our products, and all the ducky details!</h4>
             <EmailInput
               text="Enter your email"
               change={this.handleEmailChange}

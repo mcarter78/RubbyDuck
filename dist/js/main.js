@@ -10364,7 +10364,7 @@ var Subscribe = function (_Component) {
           _react2.default.createElement(
             'h4',
             null,
-            'Subscribe now and we\'ll keep you updated on details of our launch, our products, and all the ducky details!'
+            'Subscribe now and we\'ll keep you updated on our launch, our products, and all the ducky details!'
           ),
           _react2.default.createElement(_EmailInput2.default, {
             text: 'Enter your email',
