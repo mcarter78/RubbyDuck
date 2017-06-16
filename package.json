@@ -47,6 +47,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "nodemailer": "^4.0.1",
-    "nodemailer-wellknown": "^0.2.3"
+    "nodemailer-wellknown": "^0.2.3",
+    "superagent": "^3.5.2"
   }
 }

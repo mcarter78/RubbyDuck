@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import EmailInput from './EmailInput';
 import SubmitButton from './SubmitButton';
+import subscribe from '../utils/subscribe';
 
 class Subscribe extends Component {
   constructor(props) {
@@ -33,8 +34,10 @@ class Subscribe extends Component {
       input: '',
       email: input
     }, () => {
-      // TODO: Call the utility function to send POST request
-      console.log(this.state.email);
+      // Store the new value of email from state
+      const email = this.state.email;
+      // Pass email to utility function to send POST request
+      subscribe(email);
     });
   }
   render() {
